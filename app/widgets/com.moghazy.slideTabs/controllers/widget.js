@@ -1,4 +1,5 @@
-var args = arguments[ 0 ] || {};
+var args = arguments[ 0 ] || {},
+    currentIndex = 0;
 
 function containerPostLayout( ) {
 	// check if properties set it to view
@@ -26,8 +27,13 @@ function tabsViewClicked( e ) {
 			left: e.source.index * e.source.width,
 			duration: 150
 		} );
+		currentIndex = e.source.index;
 		$.theSlide.animate( animation );
 	} else {
 		console.error( 'Please make all element that in your tab touchEnabled = false' );
 	}
 }
+
+exports.getIndex = function( ) {
+	return currentIndex;
+};
