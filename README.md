@@ -1,11 +1,11 @@
-Ti.slideTabs Widget
+#Ti.slideTabs Widget
 
 This is a widget for the Alloy MVC framework of Appcelerator's Titanium platform.
 This widget provide a tabs with slide animation
 
-Usage : 
+##Usage : 
 
-.xml
+1.xml
 
 <Alloy>
     <Window>
@@ -23,7 +23,7 @@ Usage :
     </Window>
 </Alloy>
 
-.tss
+2..tss
 
 "#tabs":{ // all this prop u can change as u want
     height: 50,
