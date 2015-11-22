@@ -1,0 +1,33 @@
+".container": {
+	backgroundColor: "white"
+}
+"#tabs":{
+	height: 50,
+	top: 50,
+	slideColor: "#000",
+	width: "80%"
+}
+"#view_1":{
+	backgroundColor: "blue"
+}
+"#view_2":{
+	backgroundColor: "red"
+}
+"#view_3":{
+	backgroundColor: "orange"
+}
+"#label_1":{
+	touchEnabled: false,
+	text: "Tab 1",
+	color:"#fff"
+}
+"#label_2":{
+	touchEnabled: false,
+	text: "Tab 2",
+	color:"#fff"
+}
+"#label_3":{
+	touchEnabled: false,
+	text: "Tab 3",
+	color:"#fff"
+}

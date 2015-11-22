@@ -1,0 +1,11 @@
+"#slideSepratorContanier":{
+	bottom:0,
+	height:4,
+	zIndex:10
+}
+"#theSlide":{
+	left:0
+}
+"#tabsView":{
+	layout:"horizontal"
+}

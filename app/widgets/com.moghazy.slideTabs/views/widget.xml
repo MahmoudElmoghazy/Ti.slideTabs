@@ -1,0 +1,8 @@
+<Alloy>
+	<View id="container" onPostlayout="containerPostLayout">
+		<View id="tabsView" onClick="tabsViewClicked" />
+		<View id="slideSepratorContanier">
+			<View id="theSlide" />
+		</View>
+	</View>
+</Alloy>

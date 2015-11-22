@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.marshal.slideTabs</id>
+    <name>slideTabs</name>
+    <version>1.0</version>
+    <publisher>Moghazy</publisher>
+    <url>http://</url>
+    <description/>
+    <copyright>2015 by Moghazy</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>864d7d24-513c-48a9-9aaa-8121e65eeb6a</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <ios>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">true</target>
+        <target device="iphone">true</target>
+        <target device="mobileweb">true</target>
+        <target device="windows">false</target>
+    </deployment-targets>
+    <sdk-version>5.0.2.GA</sdk-version>
+    <plugins>
+        <plugin version="1.0">ti.alloy</plugin>
+    </plugins>
+    <property name="appc-app-id" type="string">5650f24853fe6855373db497</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">hhubj7fh95lJBvWX5hOjE0e3H6g8yloH</property>
+    <property name="acs-oauth-key-development" type="string">pi2yLKY9pkW8aP9cpCSASqbkVTr5MHSc</property>
+    <property name="acs-api-key-development" type="string">pPQNelLRekWKff1UFxK8usXEfFbUgAms</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">wYgYCE5lbWsMvn5Qcg</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">jpE4DncgKCaTa3CbeaQVMtw8NNc0FcEx</property>
+    <property name="acs-oauth-key-production" type="string">tDHCuzL7sJSI6FTSs1caHJUsjHZa44fL</property>
+    <property name="acs-api-key-production" type="string">jy5FLtkKkoK6886SXVeAyZxDrajI4c7C</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">n7tFUAtY8uOXBXYafb</property>
+    <property name="appc-org-id" type="string">100002054</property>
+    <property name="appc-creator-user-id" type="string">f55d053c-e08b-4a9d-bd13-ea7a8207f2d5</property>
+</ti:app>

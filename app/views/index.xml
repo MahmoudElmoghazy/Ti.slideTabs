@@ -1,0 +1,15 @@
+<Alloy>
+	<Window>
+		<Widget src="com.moghazy.slideTabs" id="tabs">
+			<View id="view_1">
+				<Label id="label_1" />
+			</View>
+			<View id="view_2">
+				<Label id="label_2" />
+			</View>
+			<View id="view_3">
+				<Label id="label_3" />
+			</View>
+		</Widget>
+	</Window>
+</Alloy>
