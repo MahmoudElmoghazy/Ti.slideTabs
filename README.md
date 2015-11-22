@@ -5,11 +5,11 @@ This widget provide a tabs with slide animation
 
 ##Usage : 
 
-1.xml
+*.xml
 
 <Alloy>
     <Window>
-        <Widget src="com.moghazy.slideTabs" id="tabs">
+        <Widget src="com.moghazy.slideTabs" id="tabs"> 
             <View id="view_1">
                 <Label id="label_1" />
             </View>
@@ -23,7 +23,8 @@ This widget provide a tabs with slide animation
     </Window>
 </Alloy>
 
-2..tss
+
+*.tss
 
 "#tabs":{ // all this prop u can change as u want
     height: 50,
